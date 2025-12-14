@@ -1,0 +1,542 @@
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    padding-top: 80px;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 9999;
+}
+
+/* NAV TEXT DEFAULT */
+.nav-custom .nav-link {
+    color: #828893 !important;
+    transform: translateX(35px);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* hilangkan icon panah */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* custom dropdown box */
+.custom-dropdown {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 0;
+  min-width: 180px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* item dropdown */
+.custom-dropdown .dropdown-item {
+  padding: 12px 24px;
+  font-size: 15px;
+  color: #6b7280; /* abu-abu soft */
+  transition: all 0.25s ease;
+}
+
+/* hover item */
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+
+.logo-custom .nav-link {
+    color: #3498DB;
+}
+
+.navbar-custom.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.navbar-custom.scrolled .logo-custom .nav-link {
+    color: #3498DB;
+}
+
+/* HOVER */
+.nav-link:hover {
+    opacity: 0.75;
+}
+
+.news-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 30px;
+}
+
+.news-content {
+  overflow: visible; /* INI KUNCI */
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.news-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.news-text p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* SIDEBAR */
+.news-sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.search-box,
+.latest-news {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  display: flex;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-input button {
+  padding: 10px 14px;
+  border: none;
+  background: teal;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.latest-item {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.latest-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 9999;
+}
+
+/* NAV TEXT DEFAULT */
+.nav-custom .nav-link {
+    color: #828893 !important;
+    transform: translateX(35px);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* hilangkan icon panah */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* custom dropdown box */
+.custom-dropdown {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 0;
+  min-width: 180px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* item dropdown */
+.custom-dropdown .dropdown-item {
+  padding: 12px 24px;
+  font-size: 15px;
+  color: #6b7280; /* abu-abu soft */
+  transition: all 0.25s ease;
+}
+
+/* hover item */
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+
+.logo-custom .nav-link {
+    color: #3498DB;
+}
+
+.navbar-custom.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.navbar-custom.scrolled .logo-custom .nav-link {
+    color: #3498DB;
+}
+
+/* HOVER */
+.nav-link:hover {
+    opacity: 0.75;
+}
+
+.news-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 30px;
+}
+
+.news-content {
+  overflow: visible; /* INI KUNCI */
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.news-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.news-text p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* SIDEBAR */
+.news-sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.search-box,
+.latest-news {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  display: flex;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-input button {
+  padding: 10px 14px;
+  border: none;
+  background: teal;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.latest-item {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.latest-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.latest-item p {
+  font-size: 14px;
+  margin: 0;
+}body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar-custom {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    z-index: 9999;
+}
+
+/* NAV TEXT DEFAULT */
+.nav-custom .nav-link {
+    color: #828893 !important;
+    transform: translateX(35px);
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* hilangkan icon panah */
+.dropdown-toggle::after {
+  display: none;
+}
+
+/* custom dropdown box */
+.custom-dropdown {
+  border: none;
+  border-radius: 12px;
+  padding: 12px 0;
+  min-width: 180px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* item dropdown */
+.custom-dropdown .dropdown-item {
+  padding: 12px 24px;
+  font-size: 15px;
+  color: #6b7280; /* abu-abu soft */
+  transition: all 0.25s ease;
+}
+
+/* hover item */
+.custom-dropdown .dropdown-item:hover {
+  background-color: #f8f9fa;
+  color: #111827;
+}
+
+
+.logo-custom .nav-link {
+    color: #3498DB;
+}
+
+.navbar-custom.scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.navbar-custom.scrolled .logo-custom .nav-link {
+    color: #3498DB;
+}
+
+/* HOVER */
+.nav-link:hover {
+    opacity: 0.75;
+}
+
+.news-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  gap: 30px;
+}
+
+.news-content {
+  overflow: visible; /* INI KUNCI */
+}
+
+.news-image {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.news-title {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.news-meta {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.news-text p {
+  line-height: 1.8;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* SIDEBAR */
+.news-sidebar {
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+}
+
+.search-box,
+.latest-news {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  display: flex;
+}
+
+.search-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+}
+
+.search-input button {
+  padding: 10px 14px;
+  border: none;
+  background: teal;
+  color: white;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+.latest-item {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.latest-item img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.latest-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.latest-item p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 70px 0 0;
+}
+
+.footer-brand img {
+  width: 70px;
+}
+
+.footer-brand h5 {
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* TITLE */
+.footer-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* MENU */
+.footer-menu,
+.footer-contact {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-menu li,
+.footer-contact li {
+  margin-bottom: 10px;
+  color: #cbd5f5;
+}
+
+.footer-menu li a {
+  text-decoration: none;
+  color: #cbd5f5;
+}
+
+.footer-menu li a:hover {
+  color: #ffffff;
+}
+
+/* CONTACT */
+.footer-contact i {
+  margin-right: 10px;
+}
+
+/* BOTTOM BAR */
+.footer-bottom {
+  height: 12px;
+  background-color: #8fd3ff;
+  margin-top: 40px;
+}
